@@ -1,4 +1,2 @@
-var nom = "DAGOSTINO";
-var prenom = "Martin";
-var ville = "Moulins";
-alert("Nom : " + nom + "\n Prenom : " + prenom + "\n Ville : " + ville);
+var prenom = prompt("Indiquez votre prénom : ");
+alert("Bonjour " + prenom);
