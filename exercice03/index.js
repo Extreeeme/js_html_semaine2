@@ -1,10 +1,14 @@
-function masquerTout(id) { 
-    var cible = document.getElementById("texte"); 
-    cible.style.display = 'none' ; 
+function couleurVerte(id) { 
+    document.getElementById("texte").style.color = 'green' ; 
     
 } 
 
-function visibilite(id) { 
-    var cible = document.getElementById("texte"); 
-    cible.style.display = 'block'; 
-}
+function couleurRouge(id) { 
+    document.getElementById("texte").style.color = 'red' ; 
+    
+} 
+
+function couleurBleue(id) { 
+    document.getElementById("texte").style.color = 'blue' ; 
+    
+} 
